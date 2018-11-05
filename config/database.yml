@@ -1,0 +1,24 @@
+env: dev
+
+dev:
+  adapter: SQLite
+  database: db/books.sqlite
+  config:
+
+prod:
+  adapter:
+  database:
+  host:
+  username:
+  password:
+  port:
+  config:
+
+test:
+  adapter:
+  database:
+  host:
+  username:
+  password:
+  port:
+  config:

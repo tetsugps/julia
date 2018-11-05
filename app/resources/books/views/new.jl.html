@@ -1,0 +1,9 @@
+<h2>Add a new book recommended by Bill Gates</h2>
+<p>
+  For inspiration you can visit <a href="https://www.gatesnotes.com/Books" target="_blank">Bill Gates' website</a>
+</p>
+<form action="$(Genie.Router.link_to(:create_book))" method="POST">
+  <input type="text" name="book_title" placeholder="Book title" /><br />
+  <input type="text" name="book_author" placeholder="Book author" /><br />
+  <input type="submit" value="Add book" />
+</form>
