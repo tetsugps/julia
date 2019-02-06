@@ -1,6 +1,6 @@
 module Books
 
-using SearchLight, Nullables, SearchLight.Validation, BooksValidator
+using SearchLight, SearchLight.Validation, BooksValidator
 
 export Book
 
