@@ -1,4 +1,4 @@
-using Genie.Router
+using Genie.Router, Genie.Renderer
 using MyLib
 using BooksController
 using BooksController.API

@@ -125,10 +125,8 @@ deps = ["Random"]
 uuid = "9fa8497b-333b-5362-9e8d-4d0656e87820"
 
 [[Genie]]
-deps = ["ArgParse", "Dates", "Distributed", "Gumbo", "HTTP", "HttpCommon", "JSON", "Markdown", "MbedTLS", "Millboard", "MiniLogging", "Nettle", "Nullables", "OhMyREPL", "OrderedCollections", "Pkg", "Reexport", "Revise", "SHA", "Serialization", "Sockets", "URIParser", "Unicode", "YAML"]
-git-tree-sha1 = "b140e3bb861d0e15ad934240bbdb18214a1450c5"
-repo-rev = "master"
-repo-url = "https://github.com/essenciary/Genie.jl"
+deps = ["ArgParse", "Dates", "Distributed", "Gumbo", "HTTP", "HttpCommon", "JSON", "Markdown", "MbedTLS", "Millboard", "MiniLogging", "Nettle", "Nullables", "OrderedCollections", "Pkg", "Reexport", "Revise", "SHA", "Serialization", "Sockets", "URIParser", "Unicode", "YAML"]
+path = "/Users/adrian/.julia/dev/Genie"
 uuid = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
 version = "0.1.0"
 
@@ -338,8 +336,8 @@ uuid = "0aa819cd-b072-5ff4-a722-6bc24af294d9"
 version = "0.7.0"
 
 [[SearchLight]]
-deps = ["Codecs", "DataFrames", "DataStreams", "Dates", "Distributed", "IterableTables", "JSON", "LibPQ", "MbedTLS", "Millboard", "MiniLogging", "MySQL", "Nullables", "OhMyREPL", "OrderedCollections", "Reexport", "Revise", "SHA", "SQLite", "Unicode", "YAML"]
-git-tree-sha1 = "b754710ecee411680bba66b16cbf99304d8da67d"
+deps = ["Codecs", "DataFrames", "DataStreams", "Dates", "Distributed", "IterableTables", "JSON", "LibPQ", "MbedTLS", "Millboard", "MiniLogging", "MySQL", "Nullables", "OrderedCollections", "Reexport", "Revise", "SHA", "SQLite", "Unicode", "YAML"]
+git-tree-sha1 = "a6b52bd0853343145be9eae9ccb9f655285f736a"
 repo-rev = "master"
 repo-url = "https://github.com/essenciary/SearchLight.jl"
 uuid = "340e8cb6-72eb-11e8-37ce-c97ebeb32050"
@@ -395,9 +393,9 @@ version = "0.4.1"
 
 [[TableTraitsUtils]]
 deps = ["DataValues", "IteratorInterfaceExtensions", "Missings", "TableTraits", "Test"]
-git-tree-sha1 = "a355f1882d64881a11f853e64dcc353975c4df6e"
+git-tree-sha1 = "55133a5476b61ec31060e555ffe12da27ac13682"
 uuid = "382cd787-c1b6-5bf2-a167-d5b971a19bda"
-version = "0.3.1"
+version = "0.4.0"
 
 [[Tables]]
 deps = ["IteratorInterfaceExtensions", "LinearAlgebra", "Requires", "TableTraits", "Test"]
@@ -448,9 +446,9 @@ uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
 [[WeakRefStrings]]
 deps = ["Missings", "Random", "Test"]
-git-tree-sha1 = "bccf012a0e8815410ad8b6846944a33903992fc3"
+git-tree-sha1 = "cf70c71939e621a3fac4156a8bfb3c80d745794a"
 uuid = "ea10d353-3f73-51f8-a26c-33c1cb351aa5"
-version = "0.5.6"
+version = "0.5.7"
 
 [[YAML]]
 deps = ["Codecs", "Compat"]
