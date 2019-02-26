@@ -92,10 +92,10 @@ uuid = "55939f99-70c6-5e9b-8bb0-5071ed7d61fd"
 version = "0.4.8"
 
 [[Decimals]]
-deps = ["Compat"]
-git-tree-sha1 = "7f0f577c00afe5ad7afe3300d5e82a0e5d33ae0a"
+deps = ["Test"]
+git-tree-sha1 = "b374d464d64470e743c5f9172c57352e1a9404ac"
 uuid = "abce61dc-4473-55a0-ba07-351d65e31d42"
-version = "0.3.1"
+version = "0.4.0"
 
 [[DelimitedFiles]]
 deps = ["Mmap"]
@@ -126,11 +126,11 @@ uuid = "9fa8497b-333b-5362-9e8d-4d0656e87820"
 
 [[Genie]]
 deps = ["ArgParse", "Dates", "Distributed", "Gumbo", "HTTP", "HttpCommon", "JSON", "Markdown", "MbedTLS", "Millboard", "MiniLogging", "Nettle", "Nullables", "OrderedCollections", "Pkg", "Reexport", "Revise", "SHA", "Serialization", "Sockets", "URIParser", "Unicode", "YAML"]
-git-tree-sha1 = "fe2881e4a3d72398b0492155687e3df6889f8d8c"
+git-tree-sha1 = "5509a46867fa498d127febce20de4a4dcdec282b"
 repo-rev = "master"
 repo-url = "https://github.com/essenciary/Genie.jl"
 uuid = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
-version = "0.8.3"
+version = "0.8.8"
 
 [[Gumbo]]
 deps = ["AbstractTrees", "BinaryProvider", "Libdl", "Test"]
@@ -339,7 +339,7 @@ version = "0.7.0"
 
 [[SearchLight]]
 deps = ["Codecs", "DataFrames", "DataStreams", "Dates", "Distributed", "IterableTables", "JSON", "LibPQ", "MbedTLS", "Millboard", "MiniLogging", "MySQL", "Nullables", "OrderedCollections", "Reexport", "Revise", "SHA", "SQLite", "Unicode", "YAML"]
-git-tree-sha1 = "1013a9fca01990e2e7340be66bcb85adba5066ca"
+git-tree-sha1 = "5c93aadf6505587a5c9fc85fd2cb1ef3a50dc052"
 repo-rev = "master"
 repo-url = "https://github.com/essenciary/SearchLight.jl"
 uuid = "340e8cb6-72eb-11e8-37ce-c97ebeb32050"
@@ -401,9 +401,9 @@ version = "0.4.0"
 
 [[Tables]]
 deps = ["IteratorInterfaceExtensions", "LinearAlgebra", "Requires", "TableTraits", "Test"]
-git-tree-sha1 = "37be2ed169d5771c1ac8d516d3bcb0093c49966e"
+git-tree-sha1 = "5aa45584645393c1717e0cc1f0362c2ea81470a9"
 uuid = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
-version = "0.1.15"
+version = "0.1.17"
 
 [[Test]]
 deps = ["Distributed", "InteractiveUtils", "Logging", "Random"]
