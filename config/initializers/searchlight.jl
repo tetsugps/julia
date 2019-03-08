@@ -1,6 +1,3 @@
-# Uncomment the code to enable SearchLight support
-
-#
 using SearchLight, SearchLight.QueryBuilder
 
 Core.eval(SearchLight, :(config.db_config_settings = SearchLight.Configuration.load_db_connection()))

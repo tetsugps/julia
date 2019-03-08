@@ -14,6 +14,7 @@ mutable struct Book <: AbstractModel
   id::DbId
   title::String
   author::String
+  cover::String
 
   ### VALIDATION
   # validator::ModelValidator
@@ -34,6 +35,7 @@ mutable struct Book <: AbstractModel
     id = DbId(),
     title = "",
     author = "",
+    cover = "",
 
     ### VALIDATION
     # validator = ModelValidator([
@@ -61,7 +63,7 @@ mutable struct Book <: AbstractModel
     # scopes = Dict{Symbol,Vector{SearchLight.SQLWhereEntity}}()
 
   ) = new("books", "id", Symbol[],                                                ### INTERNALS
-          id, title, author                                                             ### FIELDS
+          id, title, author, cover                                                             ### FIELDS
           # validator,                                                                  ### VALIDATION
           # before_save, after_save, on_save, on_find, after_find                       ### CALLBACKS
           # scopes                                                                      ### SCOPES
