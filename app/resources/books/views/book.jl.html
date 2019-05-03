@@ -1,0 +1,1 @@
+<li><img src="$(book_cover(@vars(:book)))" width="100px" /> $(@vars(:book).title) by $(@vars(:book).author) \t <a href="$(Genie.Router.link_to!!(:edit_book, id = @vars(:book).id |> get))">Edit</a>

@@ -18,7 +18,7 @@ end
 route("/bgbooks", BooksController.billgatesbooks)
 route("/bgbooks/new", BooksController.new)
 route("/bgbooks/create", BooksController.create, method = POST, named = :create_book)
-route("/bgbooks/:id::Int/edit", BooksController.edit)
+route("/bgbooks/:id::Int/edit", BooksController.edit, named = :edit_book)
 route("/bgbooks/:id::Int/update", BooksController.update, method = POST, named = :update_book)
 
 route("/api/v1/bgbooks", BooksController.API.billgatesbooks)

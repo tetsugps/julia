@@ -3,11 +3,11 @@ module BooksController
 using Genie.Renderer, SearchLight, Books, Genie.Router, Genie.Requests
 
 function billgatesbooks()
-  html!(:books, :billgatesbooks, books = SearchLight.all(Book))
+  html!(:books, "billgatesbooks.jl.md", context = @__MODULE__, books = SearchLight.all(Book))
 end
 
 function new()
-  html!(:books, :new)
+  html!(:books, :new, context = @__MODULE__, book = Book())
 end
 
 function create()
@@ -26,7 +26,13 @@ function create()
 end
 
 function edit()
+  book = try
+    SearchLight.find_one!!(Book, @params(:id))
+  catch ex
+    return error_404("Book ID $(@params(:id))")
+  end
 
+  html!(:books, :edit, book = book, context = @__MODULE__)
 end
 
 function update()
@@ -40,7 +46,7 @@ using Genie.Renderer
 using SearchLight, Books
 
 function billgatesbooks()
-  json!(:books, :billgatesbooks, books = SearchLight.all(Book))
+  json!(:books, :billgatesbooks, books = SearchLight.all(Book), context = @__MODULE__)
 end
 
 end # API

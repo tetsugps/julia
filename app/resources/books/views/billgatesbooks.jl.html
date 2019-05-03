@@ -2,7 +2,7 @@
 <ul>
    <%
       @foreach(@vars(:books)) do book
-         """<li><img src="$( isempty(book.cover) ? "img/docs.png" : book.cover )" width="100px" /> $(book.title) by $(book.author)"""
+         include_partial("app/resources/books/views/book.jl.html", book = book)
       end
    %>
 </ul>
