@@ -126,9 +126,7 @@ uuid = "9fa8497b-333b-5362-9e8d-4d0656e87820"
 
 [[Genie]]
 deps = ["ArgParse", "Dates", "Distributed", "Gumbo", "HTTP", "HttpCommon", "JSON", "Markdown", "MbedTLS", "Millboard", "MiniLogging", "Nettle", "Nullables", "OrderedCollections", "Pkg", "Reexport", "Revise", "SHA", "Serialization", "Sockets", "URIParser", "Unicode", "YAML"]
-git-tree-sha1 = "2390d465efdf8b96fb7fc82733c669cfe9660994"
-repo-rev = "master"
-repo-url = "https://github.com/essenciary/Genie.jl"
+path = "/Users/adrian/.julia/dev/Genie"
 uuid = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
 version = "0.9.0"
 

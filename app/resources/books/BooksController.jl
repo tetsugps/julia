@@ -3,7 +3,7 @@ module BooksController
 using Genie.Renderer, SearchLight, Books, Genie.Router, Genie.Requests
 
 function billgatesbooks()
-  html!(:books, "billgatesbooks.jl.md", context = @__MODULE__, books = SearchLight.all(Book))
+  html!(:books, :billgatesbooks, context = @__MODULE__, books = SearchLight.all(Book))
 end
 
 function new()
