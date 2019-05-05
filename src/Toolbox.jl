@@ -86,7 +86,7 @@ function print_tasks() :: Nothing
     push!(arr_output, [td["module_name"], td["file_name"], td["description"]])
   end
 
-  Millboard.table(arr_output, :colnames => ["Task name \nFilename \nDescription "], :rownames => []) |> println
+  Millboard.table(arr_output, colnames = ["Task name \nFilename \nDescription "], rownames = []) |> println
 end
 
 
