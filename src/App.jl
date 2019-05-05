@@ -85,7 +85,6 @@ end
 Loads (includes) the framework's configuration files.
 """
 function load_configurations() :: Nothing
-  @show @__MODULE__
   loggers_path = abspath("$(Genie.CONFIG_PATH)/loggers.jl")
   isfile(loggers_path) && Revise.track(@__MODULE__, loggers_path, define = true)
 
