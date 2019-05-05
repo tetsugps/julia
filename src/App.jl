@@ -4,7 +4,6 @@ App level functionality -- loading and managing app-wide components like configs
 module App
 
 using Revise
-using YAML
 using Genie
 
 const ASSET_FINGERPRINT = ""
@@ -22,7 +21,7 @@ end
 end
 
 
-### Main
+### Main.UserApp
 
 using Genie.Loggers, Genie.Configuration
 
@@ -86,6 +85,7 @@ end
 Loads (includes) the framework's configuration files.
 """
 function load_configurations() :: Nothing
+  @show @__MODULE__
   loggers_path = abspath("$(Genie.CONFIG_PATH)/loggers.jl")
   isfile(loggers_path) && Revise.track(@__MODULE__, loggers_path, define = true)
 
