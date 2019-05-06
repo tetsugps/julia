@@ -16,6 +16,8 @@ route("/friday") do
 end
 
 route("/bgbooks", BooksController.billgatesbooks)
+route("/bgbooks/list", BooksController.index, named = :list_books)
+route("/bgbooks/flaxlist", BooksController.flaxtest)
 route("/bgbooks/new", BooksController.new)
 route("/bgbooks/create", BooksController.create, method = POST, named = :create_book)
 route("/bgbooks/:id::Int/edit", BooksController.edit, named = :edit_book)

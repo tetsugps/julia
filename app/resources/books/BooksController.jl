@@ -39,6 +39,32 @@ function update()
 
 end
 
+function index()
+  @vars(:books, SearchLight.all(Book))
+  html!("""
+<h1>Bill's Gates top $(length(@vars(:books))) recommended books</h1>
+<ul>
+  <%
+    @foreach(@vars(:books)) do book
+      partial("app/resources/books/views/book.jl.html", book = book)
+    end
+  %>
+</ul>
+  """, context = @__MODULE__)
+end
+
+function flaxtest()
+  books = SearchLight.all(Book)
+  Flax.section([
+    Flax.h1("Bill's Gates top $(length(books))")
+    Flax.ul(
+      @foreach(books) do book
+        partial("app/resources/books/views/book.jl.html", context = @__MODULE__, book = book)
+      end
+    )
+  ])
+end
+
 ### API
 
 module API
