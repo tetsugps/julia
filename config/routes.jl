@@ -24,3 +24,4 @@ route("/bgbooks/:id::Int/edit", BooksController.edit, named = :edit_book)
 route("/bgbooks/:id::Int/update", BooksController.update, method = POST, named = :update_book)
 
 route("/api/v1/bgbooks", BooksController.API.billgatesbooks)
+route("/api/v1/jsontest", BooksController.API.jsontest)

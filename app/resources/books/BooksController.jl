@@ -65,6 +65,10 @@ function flaxtest()
   ])
 end
 
+function foo()
+  "mee"
+end
+
 ### API
 
 module API
@@ -72,9 +76,14 @@ module API
 using ..BooksController
 using Genie.Renderer
 using SearchLight, Books
+using JSON
 
 function billgatesbooks()
   json!(:books, :billgatesbooks, books = SearchLight.all(Book), context = @__MODULE__)
+end
+
+function jsontest()
+  respond(JSON.json(SearchLight.all(Book)), "application/json")
 end
 
 end # API
