@@ -2,6 +2,9 @@ module BooksController
 
 using Genie.Renderer, SearchLight, Books, Genie.Router, Genie.Requests
 
+using Debugger
+Debugger.break_on(:error)
+
 function billgatesbooks()
   html!(:books, :billgatesbooks, context = @__MODULE__, books = SearchLight.all(Book))
 end
