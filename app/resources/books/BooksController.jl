@@ -39,7 +39,7 @@ function edit()
 end
 
 function update()
-
+  # nothing
 end
 
 function index()
