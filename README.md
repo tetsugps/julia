@@ -5,8 +5,10 @@ https://github.com/genieframework/Genie.jl/blob/master/docs/content/Working_with
 
 ## Instructions:
 1. clone the repo: `$ git clone https://github.com/genieframework/Genie-Searchlight-example-app.git`
-2. in a terminal, `cd` to the app (repo) folder
-3. start a Julia REPL session in the repo's root
+2. in a terminal, `cd` to the app's folder: `$ cd Genie-Searchlight-example-app/`
+3. start a Julia REPL session in the app's root: `$ julia` (or on Windows,
+  if you don't have Julia in your path, you will have to start a new Julia session and then
+  `julia> cd(...)` into the app's root).
 4. `julia> ]` to enter `Pkg` mode
 5. `pkg> activate .`
 6. `pkg> instantiate` to download the dependencies for the project
