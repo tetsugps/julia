@@ -25,18 +25,14 @@ now be accessed in the web browser, by default at `http://localhost:8000`
 
 ## Restarting the app
 Later on you can load your Genie app in the OS terminal by running in the app's folder:
-
-`$ bin/repl`
-
+```$ bin/repl```
 to start an interactive REPL session, and then 
-
-`julia> Genie.startup()`
-
+```julia> Genie.startup()```
 to start the web server.
 
 Or directly start the web app at the OS terminal:
 
-`$ bin/server # will start the web app non-interactively`
+```$ bin/server # will start the web app non-interactively```
 
 ## Questions?
 For more info about running and building Genie apps please follow the Genie README:
