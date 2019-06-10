@@ -120,11 +120,11 @@ uuid = "9fa8497b-333b-5362-9e8d-4d0656e87820"
 
 [[Genie]]
 deps = ["ArgParse", "Dates", "Distributed", "Gumbo", "HTTP", "HttpCommon", "JSON", "Markdown", "MbedTLS", "Millboard", "MiniLogging", "Nettle", "Nullables", "OrderedCollections", "Pkg", "Reexport", "Revise", "SHA", "Serialization", "Sockets", "URIParser", "Unicode", "YAML"]
-git-tree-sha1 = "bf793e91f17025be4f63bfa5db78c40ebb96543c"
+git-tree-sha1 = "4bbc3ecb7a5a2ecd6bb2138340258bcbc3b245dd"
 repo-rev = "master"
 repo-url = "https://github.com/genieframework/Genie.jl"
 uuid = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
-version = "0.9.3"
+version = "0.9.4"
 
 [[GenieAuthentication]]
 deps = ["Genie", "Nullables", "SearchLight"]

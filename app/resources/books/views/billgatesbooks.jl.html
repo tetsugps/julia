@@ -2,7 +2,7 @@
 <ul>
   <%
     @foreach(@vars(:books)) do book
-      partial("app/resources/books/views/book.jl.html", book = book)
+      partial("app/resources/books/views/book.jl.html", book = book, context = @__MODULE__)
     end
   %>
 </ul>

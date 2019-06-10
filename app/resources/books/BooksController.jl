@@ -1,6 +1,7 @@
 module BooksController
 
 using Genie.Renderer, SearchLight, Books, Genie.Router, Genie.Requests
+using ViewHelper
 
 function billgatesbooks()
   html!(:books, :billgatesbooks, context = @__MODULE__, books = SearchLight.all(Book))
