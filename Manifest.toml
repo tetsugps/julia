@@ -122,7 +122,7 @@ uuid = "9fa8497b-333b-5362-9e8d-4d0656e87820"
 deps = ["ArgParse", "Dates", "Distributed", "Gumbo", "HTTP", "HttpCommon", "JSON", "Markdown", "MbedTLS", "Millboard", "MiniLogging", "Nettle", "Nullables", "OrderedCollections", "Pkg", "Reexport", "Revise", "SHA", "Serialization", "Sockets", "URIParser", "Unicode", "YAML"]
 git-tree-sha1 = "bf793e91f17025be4f63bfa5db78c40ebb96543c"
 repo-rev = "master"
-repo-url = "https://github.com/essenciary/Genie.jl"
+repo-url = "https://github.com/genieframework/Genie.jl"
 uuid = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
 version = "0.9.3"
 
@@ -348,7 +348,7 @@ version = "0.8.1"
 deps = ["Codecs", "DataFrames", "DataStreams", "Dates", "Distributed", "IterableTables", "JSON", "LibPQ", "MbedTLS", "Millboard", "MiniLogging", "MySQL", "Nullables", "OrderedCollections", "Reexport", "Revise", "SHA", "SQLite", "Unicode", "YAML"]
 git-tree-sha1 = "87992f5c3723b555c8e3c63846fe616880463148"
 repo-rev = "master"
-repo-url = "https://github.com/essenciary/SearchLight.jl"
+repo-url = "https://github.com/genieframework/SearchLight.jl"
 uuid = "340e8cb6-72eb-11e8-37ce-c97ebeb32050"
 version = "0.8.3"
 
