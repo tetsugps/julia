@@ -344,7 +344,7 @@ version = "0.8.1"
 
 [[SearchLight]]
 deps = ["Codecs", "DataFrames", "DataStreams", "Dates", "Distributed", "IterableTables", "JSON", "LibPQ", "MbedTLS", "Millboard", "MiniLogging", "MySQL", "Nullables", "OrderedCollections", "Reexport", "Revise", "SHA", "SQLite", "Unicode", "YAML"]
-git-tree-sha1 = "21a0ab8beda5c90b5bc5414663bcc6b919837291"
+git-tree-sha1 = "909619ec9550f4d5b078c4ba29a2f9bfbe369392"
 repo-rev = "master"
 repo-url = "https://github.com/essenciary/SearchLight.jl"
 uuid = "340e8cb6-72eb-11e8-37ce-c97ebeb32050"
