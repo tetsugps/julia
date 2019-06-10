@@ -128,7 +128,9 @@ version = "0.9.3"
 
 [[GenieAuthentication]]
 deps = ["Genie", "Nullables", "SearchLight"]
-path = "/Users/adrian/.julia/dev/GenieAuthentication"
+git-tree-sha1 = "603b72d968c0d3cccd4b2e8b9108f83f483aed60"
+repo-rev = "master"
+repo-url = "https://github.com/genieframework/GenieAuthentication.jl"
 uuid = "e115e502-7e3a-11e9-29b2-aba8be6c6778"
 version = "0.1.0"
 
